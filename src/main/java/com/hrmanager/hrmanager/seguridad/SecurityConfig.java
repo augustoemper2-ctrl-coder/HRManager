@@ -41,9 +41,9 @@ public class SecurityConfig {
                         .requestMatchers("/login", "/docs/**").permitAll()
                         .anyRequest().authenticated()
                 )
-                .formLogin(form -> form
+                .formLogin(login -> login
                         .loginPage("/login")   // 🔥 ESTO ERA LO QUE FALTABA
-                        .defaultSuccessUrl("/dashboard", true)
+                        .defaultSuccessUrl("/empresa/nuevo", true)
                         .permitAll()
                 )
                 .logout(logout -> logout

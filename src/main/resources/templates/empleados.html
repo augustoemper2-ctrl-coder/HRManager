@@ -70,7 +70,8 @@
                             </a>
 
                             <a th:href="@{/empleados/eliminar/{id}(id=${empleado.id})}"
-                               class="btn btn-danger btn-sm">
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('¿Está seguro de eliminar la información de esta tabla?');">
                                 Eliminar
                             </a>
                         </td>
