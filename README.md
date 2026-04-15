@@ -10,61 +10,61 @@ HRManager es una plataforma web diseñada para digitalizar y automatizar los pro
 
 El sistema permite gestionar:
 
-- Autenticación,   
-- Registro de empresa (Onboarding),   
-- Dashboard administrativo,   
-- Gestión de empleados,   
-  - Nómina,   
-    - Control de asistencia,   
-    - Evaluación de desempeño,   
-- Vacantes,   
-- Reclutamiento,   
-- Trabaja con nosotros,   
+- Autenticación   
+- Registro de empresa (Onboarding)    
+- Dashboard administrativo    
+- Gestión de empleados    
+  - Nómina:   
+    - Control de asistencia    
+    - Evaluación de desempeño    
+- Vacantes   
+- Reclutamiento    
+- Trabaja con nosotros    
 
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas:
 
-Backend,   
-    - Spring Boot,   
-    - Spring Security,   
-    - JPA / Hibernate,   
-    - MySQL,   
+Backend:   
+    - Spring Boot    
+    - Spring Security    
+    - JPA / Hibernate    
+    - MySQL    
 
-Arquitectura,   
-    - controller,   
-    - entity,   
-    - repository,   
-    - seguridad,   
+Arquitectura:   
+    - controller    
+    - entity    
+    - repository    
+    - seguridad    
 
-Frontend,   
-    - Thymeleaf,   
-    - Bootstrap,   
+Frontend:   
+    - Thymeleaf    
+    - Bootstrap    
 
-DevOps básico,   
-    - Git,   
-    - GitHub,   
+DevOps básico:   
+    - Git    
+    - GitHub    
 
 ## Estructura del proyecto
 
-HRManager
-│
-├── pom.xml,  
-├── mvnw,  
-├── src,  
-│   ├── controller,  
-│   ├── entity,  
-│   ├── repository,  
-│   ├── seguridad,  
-│
-├── templates,  
-│   ├── login.html,  
-│   ├── dashboard.html,  
-│   ├── empleados.html,  
-│
-└── docs,  
-    └── HRManager_Politica_Tratamiento_Datos_EMPRESARIAL.pdf,  
+HRManager   
+│    
+├── pom.xml   
+├── mvnw   
+├── src   
+│   ├── controller   
+│   ├── entity   
+│   ├── repository   
+│   ├── seguridad   
+│    
+├── templates   
+│   ├── login.html   
+│   ├── dashboard.html   
+│   ├── empleados.html   
+│    
+└── docs   
+    └── HRManager_Politica_Tratamiento_Datos_EMPRESARIAL.pdf   
   
-## Seguridad y Protección de Datos
+## Seguridad y Protección de Datos:
 
 El sistema implementa principios de seguridad para el manejo de la información personal de los empleados conforme a la normativa colombiana de protección de datos.
 
