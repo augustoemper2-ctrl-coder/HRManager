@@ -10,57 +10,59 @@ HRManager es una plataforma web diseñada para digitalizar y automatizar los pro
 
 El sistema permite gestionar:
 
-- Empleados
-- Reclutamiento
-- Nómina
-- Control de asistencia
-- Evaluación de desempeño
+- Autenticación,   
+- Registro de empresa (Onboarding),   
+- Dashboard administrativo,   
+- Gestión de empleados,   
+  - Nómina,   
+    - Control de asistencia,   
+    - Evaluación de desempeño,   
+- Vacantes,   
+- Reclutamiento,   
+- Trabaja con nosotros,   
+
 
 ## Tecnologías utilizadas
 
-Backend
+Backend,   
+    - Spring Boot,   
+    - Spring Security,   
+    - JPA / Hibernate,   
+    - MySQL,   
 
-Spring Boot
-Spring Security
-JPA / Hibernate
-MySQL
+Arquitectura,   
+    - controller,   
+    - entity,   
+    - repository,   
+    - seguridad,   
 
-Arquitectura
+Frontend,   
+    - Thymeleaf,   
+    - Bootstrap,   
 
-controller
-entity
-repository
-seguridad
-
-Frontend
-
-Thymeleaf
-Bootstrap
-
-DevOps básico
-
-Git
-GitHub
+DevOps básico,   
+    - Git,   
+    - GitHub,   
 
 ## Estructura del proyecto
 
 HRManager
 │
-├── pom.xml
-├── mvnw
-├── src
-│   ├── controller
-│   ├── entity
-│   ├── repository
-│   ├── seguridad
+├── pom.xml,  
+├── mvnw,  
+├── src,  
+│   ├── controller,  
+│   ├── entity,  
+│   ├── repository,  
+│   ├── seguridad,  
 │
-├── templates
-│   ├── login.html
-│   ├── dashboard.html
-│   ├── empleados.html
+├── templates,  
+│   ├── login.html,  
+│   ├── dashboard.html,  
+│   ├── empleados.html,  
 │
-└── docs
-    └── HRManager_Politica_Tratamiento_Datos_EMPRESARIAL.pdf
+└── docs,  
+    └── HRManager_Politica_Tratamiento_Datos_EMPRESARIAL.pdf,  
   
 ## Seguridad y Protección de Datos
 
