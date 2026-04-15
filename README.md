@@ -43,25 +43,25 @@ El sistema permite gestionar:
 
 ## Tecnologías utilizadas:
 
-Backend:   
-    - Spring Boot    
-    - Spring Security    
-    - JPA / Hibernate    
-    - MySQL    
+  * Backend:    
+      - Spring Boot    
+      - Spring Security    
+      - JPA / Hibernate    
+      - MySQL    
 
-Arquitectura:   
-    - controller    
-    - entity    
-    - repository    
-    - seguridad    
+  * Arquitectura:    
+      - controller    
+      - entity   
+      - repository   
+      - seguridad   
 
-Frontend:   
-    - Thymeleaf    
-    - Bootstrap    
+  * Frontend:    
+      - Thymeleaf   
+      - Bootstrap   
 
-DevOps básico:   
-    - Git    
-    - GitHub    
+  * DevOps básico:   
+      - Git    
+      - GitHub    
 
 ## Estructura del proyecto
 
