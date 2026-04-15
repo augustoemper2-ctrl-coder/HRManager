@@ -18,13 +18,29 @@ El sistema permite gestionar:
 
 ## Tecnologías utilizadas
 
-- Java
-- Spring Boot
-- Maven
-- HTML
-- CSS
-- Thymeleaf
-- MySQL (base de datos)
+Backend
+
+Spring Boot
+Spring Security
+JPA / Hibernate
+MySQL
+
+Arquitectura
+
+controller
+entity
+repository
+seguridad
+
+Frontend
+
+Thymeleaf
+Bootstrap
+
+DevOps básico
+
+Git
+GitHub
 
 ## Estructura del proyecto
 
