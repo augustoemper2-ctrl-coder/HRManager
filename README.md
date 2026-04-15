@@ -15,10 +15,29 @@ El sistema permite gestionar:
 - Dashboard administrativo    
 - Gestión de empleados    
   - Nómina:   
-    - Control de asistencia    
-    - Evaluación de desempeño    
-- Vacantes   
-- Reclutamiento    
+      * cálculo de salario   
+      * deducciones   
+      * desprendible de pago   
+
+  - Control de asistencia   
+      * registro de entrada/salida   
+      * horas extras   
+      * reportes   
+
+  - Evaluación de desempeño   
+      * evaluaciones por empleado   
+      * métricas  
+
+- Vacantes    
+      * empleados por área   
+      * vacantes abiertas   
+      * candidatos en proceso
+  
+- Reclutamiento
+      * Carga de hojas de vida (CV)   
+      * subir archivos PDF   
+      * base de candidatos  
+
 - Trabaja con nosotros    
 
 
